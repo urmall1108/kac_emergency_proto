@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/activity_main"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:paddingLeft="@dimen/activity_horizontal_margin"
+android:paddingRight="@dimen/activity_horizontal_margin"
+android:paddingTop="@dimen/activity_vertical_margin"
+android:paddingBottom="@dimen/activity_vertical_margin"
+tools:context="com.example.sh_house.kac_emergency.MainActivity">
+
+
+
+    <Button
+        android:id="@+id/ilgun_gunmuza"
+        android:text="일근 근무자"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="100dp"
+     />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="교대 근무자"
+        android:layout_marginLeft="80dp"
+        android:id="@+id/gyodae_gunmu"
+        android:layout_below="@id/ilgun_gunmuza"
+    />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:text="문자보고 필수연락처"
+        android:id="@+id/munza"
+        android:layout_below="@id/gyodae_gunmu"
+    />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:text="유선보고 필수연락처"
+        android:id="@+id/yusun"
+        android:layout_below="@id/munza"
+     />
+
+
+</RelativeLayout>
